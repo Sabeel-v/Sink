@@ -33,7 +33,7 @@ export default defineNuxtConfig({
     caseSensitive: false,
     listQueryLimit: 500,
     disableBotAccessLog: false,
-    disableAutoBackup: false,
+    disableAutoBackup: true, // FIXED: Set to true to prevent background crashes without R2
     notFoundRedirect: '',
     safeBrowsingDoh: '', // Set to DoH URL to enable auto-detection, e.g. https://family.cloudflare-dns.com/dns-query
     public: {
@@ -82,14 +82,14 @@ export default defineNuxtConfig({
         title: 'Sink API',
         description: 'A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.',
       },
-      route: '/_docs/openapi.json',
-      ui: {
-        scalar: {
-          route: '/_docs/scalar',
-        },
-        swagger: {
-          route: '/_docs/swagger',
-        },
+    },
+    route: '/_docs/openapi.json',
+    ui: {
+      scalar: {
+        route: '/_docs/scalar',
+      },
+      swagger: {
+        route: '/_docs/swagger',
       },
     },
   },

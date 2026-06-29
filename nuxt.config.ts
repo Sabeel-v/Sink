@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     // HARDCODED FIX: Put your custom password directly inside the quotes below
-    siteToken: 'YourCustomPasswordHere', 
+    siteToken: '80751142', 
     redirectStatusCode: '301',
     linkCacheTtl: 60,
     redirectWithQuery: false,

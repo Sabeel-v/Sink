@@ -25,12 +25,6 @@
     "binding": "AI",
     "remote": true
   },
-  "analytics_engine_datasets": [
-    {
-      "binding": "ANALYTICS",
-      "dataset": "sink"
-    }
-  ],
   "kv_namespaces": [
     {
       "binding": "KV",

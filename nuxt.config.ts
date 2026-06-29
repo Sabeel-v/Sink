@@ -19,7 +19,8 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   runtimeConfig: {
-    siteToken: process.env.NUXT_SITE_TOKEN || crypto.randomUUID(),
+    // HARDCODED FIX: Put your custom password directly inside the quotes below
+    siteToken: 'YourCustomPasswordHere', 
     redirectStatusCode: '301',
     linkCacheTtl: 60,
     redirectWithQuery: false,

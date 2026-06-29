@@ -24,12 +24,5 @@
   "ai": {
     "binding": "AI",
     "remote": true
-  },
-  "kv_namespaces": [
-    {
-      "binding": "KV",
-      "preview_id": "ef93d42dc4b34969bab404d2e80f8dd3",
-      "id": "ef93d42dc4b34969bab404d2e80f8dd3"
-    }
-  ]
+  }
 }
